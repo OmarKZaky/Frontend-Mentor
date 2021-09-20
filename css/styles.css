@@ -1,0 +1,111 @@
+body {
+    background: url(../images/pattern-background-desktop.svg) no-repeat top center;
+    background-size: cover;
+    background-color: #e2eaff;
+}
+
+h2 {
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 74, 75);
+}
+
+h4 {
+    margin: 3px;
+}
+
+.card-background {
+    width: 100%;
+    background: url(../images/illustration-hero.svg) no-repeat top center;
+    background-size: contain;
+    height: 260px;
+    border-radius: 15px;
+}
+
+.card {
+    width: 33%;
+    margin: 90px auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.description {
+    color: #66BFBF;
+    width: 70%;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.annual {
+    width: 70%;
+    background-color: #f6f8ff;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.annual p {
+    color: #66BFBF;
+    margin: 10px 0;
+}
+
+.annual img {
+    float: left;
+    margin-right: 10px;
+}
+
+.annual a {
+    position: absolute;
+    top: 42%;
+    right: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 60px;
+    background-color: #4A53D6;
+    -webkit-box-shadow: 0 20px 21px 0 #0059A0;
+    -moz-box-shadow: 0 20px 21px 0 #0059A0;
+    box-shadow: 0 6px 8px 0 #0059a0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto 20px;
+ }
+ 
+ .btn:hover {
+    background: #6699EB;
+    border: solid #FFFFFF 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .cancel {
+     margin: auto;
+     font-weight: 700;
+     text-decoration: none;
+     color: #333;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ .cancel:hover {
+     text-decoration: underline;
+ }
+
+ .attribution {
+     padding: 20px 42px;
+}
